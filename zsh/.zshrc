@@ -14,7 +14,8 @@ source $ZSH/oh-my-zsh.sh
 eval "$(starship init zsh)"
 
 # Aliases
-alias brew-sync='brew bundle && brew bundle cleanup --zap'
+alias reload='source ~/.zshrc && echo "Sourced zshrc"'
+alias brew-sync=' og_dir=$(pwd) && cd ~ && brew bundle && brew bundle cleanup --zap && cd $og_dir'
 alias venv-a='source ./venv/bin/activate'
 alias stow-apps='
 original_dir=$(pwd) && cd ~/.cfg && for dir in */; do 
