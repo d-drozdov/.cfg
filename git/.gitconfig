@@ -1,0 +1,18 @@
+[user]
+    name = Daniel Drozdov
+    email = ddrozdov12@gmail.com 
+
+[init]
+    defaultBranch = main
+
+[core]
+    excludesfile = ~/.gitignore_global
+
+[color]
+    ui = auto
+
+[pull]
+    rebase = false
+
+[help]
+    autocorrect = 1

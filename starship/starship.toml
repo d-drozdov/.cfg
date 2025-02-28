@@ -1,0 +1,123 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+[aws]
+symbol = "\uebaa "  #  
+[buf]
+symbol = "\uF49D "  #  
+[c]
+symbol = "\uE61E "  #  
+[conda]
+symbol = "\uF10C "  #  
+[crystal]
+symbol = "\uE62F "  #  
+[dart]
+symbol = "\uE798 "  #  
+[directory]
+read_only = "\uF30E "  # 󰌾 
+[docker_context]
+symbol = "\uF308 "  #  
+[elixir]
+symbol = "\uE62D "  #  
+[elm]
+symbol = "\uE62C "  #  
+[fennel]
+symbol = "\uE6AF "  #  
+[fossil_branch]
+symbol = "\uF418 "  #  
+[git_branch]
+symbol = "\uF418 "  #  
+[git_commit]
+tag_symbol = "\uF412 "  #  
+[golang]
+symbol = "\uE626 "  #  
+[guix_shell]
+symbol = "\uF325 "  #  
+[haskell]
+symbol = "\uE777 "  #  
+[haxe]
+symbol = "\uE666 "  #  
+[hg_branch]
+symbol = "\uF418 "  #  
+[hostname]
+ssh_symbol = "\ueb01 "  #  
+[java]
+symbol = "\uE796 "  #  
+[julia]
+symbol = "\uE624 "  #  
+[kotlin]
+symbol = "\uE634 "  #  
+[lua]
+symbol = "\uE620 "  #  
+[memory_usage]
+symbol = "\uF31B "  # 󰍛 
+[meson]
+symbol = "\uF537 "  # 󰔷 
+[nim]
+symbol = "\uF165 "  # 󰆥 
+[nix_shell]
+symbol = "\ue843 "  #  
+[nodejs]
+symbol = "\ued0d "  #  
+[ocaml]
+symbol = "\uE67A "  #  
+[os.symbols]
+Alpaquita = "\uEAA2 "  #  
+Alpine = "\uF300 "  #  
+AlmaLinux = "\uF31D "  #  
+Amazon = "\uF270 "  #  
+Android = "\uF17B "  #  
+Arch = "\uF303 "  #  
+Artix = "\uF31F "  #  
+CentOS = "\uF304 "  #  
+Debian = "\uF306 "  #  
+DragonFly = "\uE38E "  #  
+Emscripten = "\uF205 "  #  
+EndeavourOS = "\uF197 "  #  
+Fedora = "\uF30A "  #  
+FreeBSD = "\uF30C "  #  
+Garuda = "\uF6D3 "  # 󰛓 
+Gentoo = "\uF30D "  #  
+HardenedBSD = "\uF79C "  # 󰞌 
+Illumos = "\uF238 "  # 󰈸 
+Kali = "\uF327 "  #  
+Linux = "\uF31A "  #  
+Mabox = "\uEB29 "  #  
+Macos = "\uF302 "  #  
+Manjaro = "\uF312 "  #  
+Mariner = "\uF124 "  #  
+MidnightBSD = "\uF186 "  #  
+Mint = "\uF30E "  #  
+NetBSD = "\uF020 "  #  
+NixOS = "\uF423 "  #  
+OpenBSD = "\uF23A "  # 󰈺 
+openSUSE = "\uF314 "  #  
+OracleLinux = "\uF337 "  # 󰌷 
+Pop = "\uF32A "  #  
+Raspbian = "\uF315 "  #  
+Redhat = "\uF316 "  #  
+RedHatEnterprise = "\uF316 "  #  
+RockyLinux = "\uF32B "  #  
+Redox = "\uF018 "  # 󰀘 
+[package]
+symbol = "\uF317 "  # 󰏗 
+[perl]
+symbol = "\uE67E "  #  
+[php]
+symbol = "\uE608 "  #  
+[pijul_channel]
+symbol = "\uF418 "  #  
+[python]
+symbol = "\uE235 "  #  
+[rlang]
+symbol = "\uF5D4 "  # 󰟔 
+[ruby]
+symbol = "\uE791 "  #  
+[rust]
+symbol = "\uF8D7 "  # 󱘗 
+[scala]
+symbol = "\uE737 "  #  
+[swift]
+symbol = "\uE755 "  #  
+[zig]
+symbol = "\uE6A9 "  #  
+[gradle]
+symbol = "\uE660 "  #   

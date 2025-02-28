@@ -1,0 +1,29 @@
+# --- Applications ---
+cask 'visual-studio-code'
+cask 'brave-browser'
+cask 'raycast'
+cask 'alt-tab'
+cask 'rectangle'
+cask 'oversight'
+cask 'spotify'
+cask 'cryptomator'
+cask 'google-drive'
+cask 'sublime-text'
+cask 'cursor'
+cask 'alacritty'
+
+# --- CLI Tools ---
+brew 'tree'
+brew 'lf'
+brew 'speedtest-cli'
+brew 'zip'
+brew 'wget'
+brew 'tmux'
+brew 'direnv'
+cask 'fuse-t'
+brew 'starship'
+brew 'stow'
+brew 'zsh-syntax-highlighting'
+
+# --- Fonts ---
+cask 'font-fira-code-nerd-font'
