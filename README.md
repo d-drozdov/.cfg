@@ -1,6 +1,6 @@
-# Dotfiles
+# .cfg
 
-This  repo is meant to house my dotfiles/config files 
+This  repo is meant to house my dotfiles/config files and walk through how to set up a new machine fast
 
 ## Set up a new machine:
 
@@ -20,7 +20,7 @@ brew bundle
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
 
-5. Run stow(it may ask you delete some files):
+5. Run stow(it may ask you to delete some files):
 ```bash 
 for dir in ./; do echo "Stowing ${dir%/}..."; stow -v -t ~ ${dir%/}; done
 ```
