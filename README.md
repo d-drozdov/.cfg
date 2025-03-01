@@ -36,5 +36,25 @@ Note: Disable window management on raycast, and disable window tiling on macos
 2. brew-sync - will install all brews/casks in the brewfile and remove any that are not there as well their dependencies
 
 
+## Helpful Things to do:
 
+### Setup Touch ID for sudo commands:
+```bash
+sudo cp /etc/pam.d/sudo_local.template /etc/pam.d/sudo_local
+```
 
+```bash
+sudo vim /etc/pam.d/sudo_local
+```
+
+Lastly uncomment `#auth       sufficient     pam_tid.so`
+
+Restart your terminal and run `sudo ls` to verify everything is working
+
+### Change where screenshots are saved:
+
+```bash
+mkdir Screenshots
+defaults write com.apple.screencapture location ~/Screenshots
+killall SystemUIServer
+```
