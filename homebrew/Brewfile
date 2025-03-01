@@ -1,12 +1,10 @@
 # --- Applications ---
 cask 'visual-studio-code'
-cask 'brave-browser'
 cask 'raycast'
 cask 'alt-tab'
 cask 'rectangle'
 cask 'oversight'
 cask 'spotify'
-cask 'cryptomator'
 cask 'google-drive'
 cask 'sublime-text'
 cask 'cursor'
@@ -20,7 +18,6 @@ brew 'zip'
 brew 'wget'
 brew 'tmux'
 brew 'direnv'
-cask 'fuse-t'
 brew 'starship'
 brew 'stow'
 brew 'zsh-syntax-highlighting'
@@ -30,6 +27,4 @@ brew 'mas'
 cask 'font-fira-code-nerd-font'
 
 # --- Mac App Store Apps ---
-mas 'Bitwarden', id: 1352778147
-mas 'Tailscale', id: 1470499037
 mas 'Amphetamine', id: 937984704 
