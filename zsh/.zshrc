@@ -2,6 +2,7 @@
 autoload -Uz compinit
 compinit
 
+
 # Enable syntax highlighting (Homebrew installation)
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
@@ -27,3 +28,7 @@ original_dir=$(pwd) && cd ~/.cfg && for dir in */; do
   stow -v -t ~ $pkg && echo "✓ $pkg successfully stowed" || echo "✗ Error stowing $pkg"
   echo ""
 done && cd "$original_dir"'
+
+# Flutter
+export PATH="~/Developer/Libraries/flutter/bin:$PATH"
+
