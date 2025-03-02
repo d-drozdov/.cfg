@@ -18,7 +18,7 @@ export HOMEBREW_NO_ANALYTICS=1
 
 # Aliases
 alias reload='source ~/.zshrc && echo "~/.zshrc has been sourced"'
-alias brew-sync=' og_dir=$(pwd) && cd ~ && brew bundle && brew bundle cleanup --zap && cd $og_dir'
+alias brew-sync=' og_dir=$(pwd) && cd ~ && brew bundle && brew bundle cleanup --zap --force && cd $og_dir'
 alias venv-a='source ./venv/bin/activate'
 alias stow-apps='
 original_dir=$(pwd) && cd ~/.cfg && for dir in */; do 

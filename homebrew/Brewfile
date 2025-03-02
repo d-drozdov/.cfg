@@ -5,7 +5,6 @@ cask 'alt-tab'
 cask 'rectangle'
 cask 'oversight'
 cask 'spotify'
-cask 'google-drive'
 cask 'sublime-text'
 cask 'cursor'
 cask 'alacritty'
@@ -25,6 +24,3 @@ brew 'mas'
 
 # --- Fonts ---
 cask 'font-fira-code-nerd-font'
-
-# --- Mac App Store Apps ---
-mas 'Amphetamine', id: 937984704 
