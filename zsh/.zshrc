@@ -19,7 +19,6 @@ export HOMEBREW_NO_ANALYTICS=1
 
 # Aliases
 alias reload='source ~/.zshrc && echo "~/.zshrc has been sourced"'
-alias brew-sync=' og_dir=$(pwd) && cd ~ && brew bundle && brew bundle cleanup --zap --force && cd $og_dir'
 alias venv-a='source ./venv/bin/activate'
 alias stow-apps='
 original_dir=$(pwd) && cd ~/.cfg && for dir in */; do 
@@ -32,3 +31,14 @@ done && cd "$original_dir"'
 # Flutter
 export PATH="~/Developer/Libraries/flutter/bin:$PATH"
 
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /Users/daniel/.dart-cli-completion/zsh-config.zsh ]] && . /Users/daniel/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+
+export PATH="$PATH:${HOME}/fvm/default/bin"
+source ~/.tecli.zsh
+
+# Created by `pipx` on 2025-03-02 01:14:15
+export PATH="$PATH:/Users/daniel/.local/bin"
