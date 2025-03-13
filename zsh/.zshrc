@@ -6,6 +6,8 @@ compinit
 # Enable syntax highlighting (Homebrew installation)
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+source $(brew --prefix)
+
 # Oh-My-Zsh setup
 export ZSH="$HOME/.oh-my-zsh"
 plugins=(git z docker aws direnv)
