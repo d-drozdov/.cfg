@@ -27,3 +27,6 @@ original_dir=$(pwd) && cd ~/.cfg && for dir in */; do
   stow -v -t ~ $pkg && echo "✓ $pkg successfully stowed" || echo "✗ Error stowing $pkg"
   echo ""
 done && cd "$original_dir"'
+
+
+bindkey \^U backward-kill-line
