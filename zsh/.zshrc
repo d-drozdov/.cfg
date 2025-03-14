@@ -44,3 +44,7 @@ source ~/.tecli.zsh
 
 # Created by `pipx` on 2025-03-02 01:14:15
 export PATH="$PATH:/Users/daniel/.local/bin"
+
+
+
+bindkey \^U backward-kill-line

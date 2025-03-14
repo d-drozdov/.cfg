@@ -1,0 +1,19 @@
+#!/bin/bash
+git fetch --prune
+stale_branches=$(git branch -vv | grep ": gone]" | awk "{print \$1}")
+
+if [[ -z "$stale_branches" ]]; then
+  echo "No stale branches found."
+  exit 0
+fi
+
+echo "Branches to be deleted:"
+echo "$stale_branches"
+
+read -p "Delete these branches? (y/N) " confirm
+
+if [[ "$confirm" == "y" ]]; then
+  echo "$stale_branches" | xargs git branch -D
+else
+  echo "Aborted."
+fi
