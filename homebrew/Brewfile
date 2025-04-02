@@ -8,6 +8,7 @@ cask 'spotify'
 cask 'sublime-text'
 cask 'cursor'
 cask 'alacritty'
+cask 'jordanbaird-ice'
 
 # --- CLI Tools ---
 brew 'tree'

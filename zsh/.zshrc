@@ -29,6 +29,7 @@ original_dir=$(pwd) && cd ~/.cfg && for dir in */; do
   stow -v -t ~ $pkg && echo "✓ $pkg successfully stowed" || echo "✗ Error stowing $pkg"
   echo ""
 done && cd "$original_dir"'
+alias git-cleanup='~/.git-clean-stale'
 
 # Flutter
 export PATH="~/Developer/Libraries/flutter/bin:$PATH"
@@ -45,6 +46,7 @@ source ~/.tecli.zsh
 # Created by `pipx` on 2025-03-02 01:14:15
 export PATH="$PATH:/Users/daniel/.local/bin"
 
-
+# Add Go to PATH
+export PATH="$PATH:$HOME/go/bin"
 
 bindkey \^U backward-kill-line
