@@ -11,6 +11,7 @@ cask 'google-drive'
 cask 'sublime-text'
 cask 'cursor'
 cask 'alacritty'
+cask 'jordanbaird-ice'
 
 # --- CLI Tools ---
 brew 'tree'
@@ -33,3 +34,4 @@ cask 'font-fira-code-nerd-font'
 mas 'Bitwarden', id: 1352778147
 mas 'Tailscale', id: 1470499037
 mas 'Amphetamine', id: 937984704 
+
