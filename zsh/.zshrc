@@ -50,3 +50,7 @@ export PATH="$PATH:/Users/daniel/.local/bin"
 export PATH="$PATH:$HOME/go/bin"
 
 bindkey \^U backward-kill-line
+
+
+#PSQL
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
