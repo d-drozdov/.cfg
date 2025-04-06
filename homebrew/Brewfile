@@ -33,5 +33,4 @@ cask 'font-fira-code-nerd-font'
 # --- Mac App Store Apps ---
 mas 'Bitwarden', id: 1352778147
 mas 'Tailscale', id: 1470499037
-mas 'Amphetamine', id: 937984704 
 
