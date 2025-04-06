@@ -58,3 +58,10 @@ mkdir Screenshots
 defaults write com.apple.screencapture location ~/Screenshots
 killall SystemUIServer
 ```
+
+
+
+### If you can't push for some reason:
+```bash 
+git remote set-url origin git@github.com:d-drozdov/.cfg.git
+```
