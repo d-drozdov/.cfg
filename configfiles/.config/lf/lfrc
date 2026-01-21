@@ -1,0 +1,9 @@
+# Show hidden files
+set hidden
+
+# Use bat for previews with colors
+set previewer bat
+set preview true
+
+# Open file with default application
+map o $open "$f"
