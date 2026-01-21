@@ -1,0 +1,111 @@
+# Version control
+.git/
+.svn/
+.hg/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+.classpath
+.project
+.settings/
+
+# Go
+go/pkg/
+go/bin/
+vendor/
+
+# Node/React
+node_modules/
+bower_components/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next/
+.nuxt/
+out/
+dist/
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Pods/
+android/.gradle/
+android/app/build/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+
+# Build outputs
+dist/
+build/
+out/
+.terraform/
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+Library/Caches/
+
+# Containers/VMs
+Containers/
+.docker/
+.lima/
+.cargo/registry/
+.rustup/
+
+# OS files
+.DS_Store
+.Trash/
+.Spotlight-V100/
+.TemporaryItems/
+Thumbs.db
+Desktop.ini
+
+# Misc
+Library/Photos/
+Movies/
+Pictures/
+coverage/
+.nyc_output/
