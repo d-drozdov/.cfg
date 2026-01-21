@@ -52,4 +52,4 @@ nnoremap <space> : " Space key as command key
 inoremap jj <Esc>  " jj to exit insert mode
 
 " Set color scheme
-colorscheme desert
+colorscheme slate

@@ -1,6 +1,5 @@
 # --- Applications ---
 cask 'visual-studio-code'
-cask 'brave-browser'
 cask 'raycast'
 cask 'alt-tab'
 cask 'rectangle'
@@ -10,8 +9,8 @@ cask 'cryptomator'
 cask 'google-drive'
 cask 'sublime-text'
 cask 'cursor'
-cask 'alacritty'
 cask 'jordanbaird-ice'
+cask 'ghostty'
 
 # --- CLI Tools ---
 brew 'tree'
@@ -26,6 +25,9 @@ brew 'starship'
 brew 'stow'
 brew 'zsh-syntax-highlighting'
 brew 'mas'
+brew 'fzf'
+brew 'bat'
+brew 'fd'
 
 # --- Fonts ---
 cask 'font-fira-code-nerd-font'
